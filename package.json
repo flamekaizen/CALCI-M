@@ -1,0 +1,42 @@
+{
+  "name": "calci-mobile",
+  "version": "1.0.0",
+  "description": "Calci for Android and iOS (Capacitor shell around the Calci web app).",
+  "scripts": {
+    "sync:web": "node scripts/sync-web.mjs",
+    "sync": "node scripts/sync-web.mjs && cap sync",
+    "icons": "node scripts/android-icons.mjs",
+    "open:android": "cap open android",
+    "open:ios": "cap open ios",
+    "build:android": "cd android && gradlew assembleDebug",
+    "build:android:release": "cd android && gradlew bundleRelease"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flamekaizen/CALCI-M.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/flamekaizen/CALCI-M/issues"
+  },
+  "homepage": "https://github.com/flamekaizen/CALCI-M#readme",
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/browser": "^8.0.5",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/ios": "^8.6.2",
+    "@capacitor/keyboard": "^8.0.6",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.6.2",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
