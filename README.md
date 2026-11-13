@@ -5,6 +5,14 @@ Native mobile app for **Calci**, the all-in-one advanced calculator. It wraps th
 native haptics, status-bar theming, splash screen, keyboard handling and the Android back button.
 Everything works offline; only the optional Python runtime and the API explorer need a connection.
 
+## Install on your Android phone
+
+1. Open the repository’s **Releases** page on your phone and download the latest `Calci-v*.apk` (or download it on a computer and copy it to the phone).
+2. Tap the file. Android asks to allow installing from this source (your browser or file manager) — allow it once.
+3. Tap **Install**, then open Calci.
+
+Every push to `main` also builds an APK you can download from the **Actions** tab (artifact `calci-apk`).
+
 ## Layout
 
 ```
