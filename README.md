@@ -1,4 +1,29 @@
-# Calci — mobile (Android & iOS)
+<!-- calci-header -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/flamekaizen/CALCI-W/main/public/icons/icon-256.png" width="88" alt="Calci logo"/>
+
+# Calci — mobile
+
+**The all-in-one advanced calculator as a native, offline app for Android and iOS, with haptics, a phone-first layout and every desktop mode in your pocket.**
+
+<a href="https://github.com/flamekaizen/CALCI-M/releases/latest"><img src="https://img.shields.io/github/v/release/flamekaizen/CALCI-M?style=flat-square&color=8C8CFF&label=release" alt="Release"/></a>
+<a href="https://github.com/flamekaizen/CALCI-M/actions/workflows/android.yml"><img src="https://github.com/flamekaizen/CALCI-M/actions/workflows/android.yml/badge.svg" alt="Android build"/></a>
+<img src="https://img.shields.io/badge/platforms-Android%20%7C%20iOS-30363D?style=flat-square&logo=android&logoColor=white" alt="Platforms"/>
+<img src="https://img.shields.io/badge/Capacitor-8-119EFF?style=flat-square&logo=capacitor&logoColor=white" alt="Capacitor"/>
+<a href="LICENSE"><img src="https://img.shields.io/github/license/flamekaizen/CALCI-M?style=flat-square&color=8C8CFF" alt="License"/></a>
+
+<a href="https://github.com/flamekaizen/CALCI-M/releases/latest"><b>⬇ Download the Android APK</b></a> &nbsp;|&nbsp; <a href="https://calci-web.vercel.app">Try it in the browser</a>
+
+<sub>Part of the Calci family &nbsp;—&nbsp; <a href="https://github.com/flamekaizen/CALCI-W">🌐 Web</a> &nbsp;·&nbsp; <a href="https://github.com/flamekaizen/CALCI-D">🖥️ Desktop</a> &nbsp;·&nbsp; <b>📱 Mobile</b></sub>
+
+<br/><br/>
+
+<img src="docs/screenshots/mobile-duo.png" alt="Calci on a phone: scientific keypad and graphing" width="70%"/>
+
+
+</div>
+<!-- calci-header -->
 
 Native mobile app for **Calci**, the all-in-one advanced calculator. It wraps the Calci web app
 ([CALCI-W](https://github.com/flamekaizen/CALCI-W)) with [Capacitor](https://capacitorjs.com) and adds
